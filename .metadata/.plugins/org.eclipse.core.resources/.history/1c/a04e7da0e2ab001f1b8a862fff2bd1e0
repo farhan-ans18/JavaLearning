@@ -1,0 +1,26 @@
+package com.kodnest.fileInputOutput;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		try {
+		String f1 = "C:\\IO\\input.txt";
+		String f2 = "C:\\IO\\ouput.txt";
+		FileInputStream fis = new FileInputStream(f1);
+		FileOutputStream fos = new FileOutputStream(f2);
+		
+		int x;
+		while((x = fis.read()) != -1) {
+			fos.write(x);
+		}
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

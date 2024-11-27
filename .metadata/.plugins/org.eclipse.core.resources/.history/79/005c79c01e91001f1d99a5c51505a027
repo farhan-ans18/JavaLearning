@@ -1,0 +1,28 @@
+package com.Algorithm;
+
+import java.util.ArrayList;
+
+public class PracticeList {
+
+	public static void main(String[] args) {
+		ArrayList al = new ArrayList();
+		
+		// add() method;
+		
+		al.add(55);
+		al.add(87);
+		al.add(98);
+		al.add(106);
+		al.add(78);
+		
+		System.out.println(al + " ");
+		
+		// remove() method (remove element by accepting particular index)
+		
+		al.remove(3);
+		System.out.println(al + " ");
+		
+		
+	}
+
+}

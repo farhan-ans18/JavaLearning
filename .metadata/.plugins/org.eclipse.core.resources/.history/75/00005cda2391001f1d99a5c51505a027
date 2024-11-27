@@ -1,0 +1,22 @@
+package com.Algorithm;
+
+import java.util.LinkedList;
+public class PracticeLinkedList {
+
+	public static void main(String[] args) {
+		LinkedList ll = new LinkedList();
+		
+		ll.add(55);
+		ll.add(87);
+		ll.add(99);
+		ll.add(101);
+		
+		System.out.println(ll);
+		
+		System.out.println(ll.peek());
+		System.out.println(ll);
+		
+		
+	}
+
+}

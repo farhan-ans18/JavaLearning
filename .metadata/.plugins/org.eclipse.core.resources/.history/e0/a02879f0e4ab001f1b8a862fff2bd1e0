@@ -1,0 +1,10 @@
+package com.kodnest.fileInputOutput;
+
+public class BufferedUse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

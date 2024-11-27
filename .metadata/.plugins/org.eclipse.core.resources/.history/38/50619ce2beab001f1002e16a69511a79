@@ -1,0 +1,10 @@
+package kodnest.com.multithreading;
+
+public class WarriorApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

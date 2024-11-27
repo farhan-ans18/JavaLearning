@@ -1,0 +1,23 @@
+package com.Algorithm;
+
+import java.util.Scanner;
+
+public class ArrayApp {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the size for array");
+		ArrayImplementation array = new ArrayImplementation(sc.nextInt());
+		int size = array.length();
+		System.out.println("Enter elments for size " + size);
+		for(int i=0; i<size; i++) {
+			array.insert(i, sc.nextInt());
+		}
+		
+		array.display();
+		array.delete(7, 24);
+		
+
+	}
+
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;DsaInterface&apos;" deleteContents="true" description="Delete resource &apos;DsaInterface&apos;" element1="/DsaInterface" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1729692366557"/>&#x0A;<refactoring comment="Delete resource &apos;DSA_GUI_PROJECT&apos;" deleteContents="false" description="Delete resource &apos;DSA_GUI_PROJECT&apos;" element1="/DSA_GUI_PROJECT" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1729692627704"/>
+</session>

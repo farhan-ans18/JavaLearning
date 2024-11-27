@@ -1,0 +1,46 @@
+package com.Algorithm;
+
+import java.util.LinkedList;
+public class PracticeLinkedList {
+
+	public static void main(String[] args) {
+		LinkedList ll = new LinkedList();
+		
+		ll.add(55);
+		ll.add(87);
+		ll.add(99);
+		ll.add(101);
+		
+		System.out.println(ll);
+		
+		System.out.println(ll.peek());
+		System.out.println(ll.peekFirst());
+		System.out.println(ll.peekLast());
+		System.out.println(ll);
+		
+		System.out.println(ll.poll());
+		System.out.println(ll.pollLast());
+		System.out.println(ll);
+		
+		ll.push(55);
+		ll.push(87);
+		System.out.println(ll);
+		
+		ll.pop();
+		System.out.println(ll);
+		ll.pop();
+		System.out.println(ll);
+		
+		System.out.println(ll.getFirst());
+		System.out.println(ll.getLast());
+		System.out.println(ll.get(0));
+		
+		System.out.println(ll.removeLast());
+		
+		
+		
+		
+		
+	}
+
+}

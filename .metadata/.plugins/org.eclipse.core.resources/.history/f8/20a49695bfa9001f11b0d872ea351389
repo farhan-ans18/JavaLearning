@@ -1,0 +1,55 @@
+package com.Algorithm;
+
+public class ArrayImplementation {
+    private int[] arr;
+    private int size;
+	public ArrayImplementation(int size) {
+		super();
+		this.size = size;
+		if(size>0) {
+			arr = new int[size];
+			System.out.println("An Array of " + size + " is created");
+		}
+		else {
+			System.out.println("Give a valid array size in positive number start from 1");
+		}
+	}
+	
+	public void insert(int index, int element) {
+		if(index >=0 && index < size) {
+			arr[index] = element;
+			System.out.println("Element " + element + " is inserted at index " + index);
+		}
+		else {
+			System.out.println("Give a valid index from 0 to " + (size-1));
+		}
+	}
+	
+	public void delete(int index, int element) {
+		if(index >=0 && index < size) {
+			System.out.println("Element " + element + " is deleted from index " + index);
+			arr[index] = 0;
+		}
+		else {
+			System.out.println("Give a valid index from 0 to " + (size-1));
+		}
+	}
+	
+	void display() {
+		System.out.println("[");
+		for(int i=0; i<size; i++) {
+			System.out.print(arr[i]);
+			if(i< size-1) {
+				System.out.print(",");
+			}
+		}
+		
+		System.out.println("]");
+	}
+	
+    int length() {
+		return size-1;
+	}
+    
+    
+}

@@ -1,0 +1,7 @@
+package kodnest.com.multithreading;
+
+public class DaemonActivity implements Runnable {
+
+	
+
+}
